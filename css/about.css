@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+
+}
+body{
+    background-color: var(--color7);
+    font-size: 10px;
+}
+
+.barrainicio{
+    width: 90em;
+    height: 6em;
+    background-color: var(--color1);
+    margin: auto;
+    margin-top: 1em;
+    position: relative;
+    box-sizing: border-box;
+    
+    }
+    .titulo{
+    font-size: 4.5em;
+    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+    color: var(--color2);
+    }
+    .nav{
+        margin-top: -2.5em;
+        font-family: 'Nunito', sans-serif;
+        transition: 0.4s;
+        font-size: 1.4em;
+    }
+        
+    .nav li{
+        display: inline;
+        list-style: none;
+        text-align: center;
+        padding: 3em;
+        border-bottom: 0.2;
+        transition: 0.4s;
+    }
+    
+    .nav li:hover {
+        transition: 0.4s;
+        color:var(--color4); 
+        border-bottom: 0.3em solid var(--color2);
+        padding-bottom: 0em;
+        
+    }
+    .nav2{
+        margin-top: -1.2em;
+        margin-left: 40em;
+    }
+    
+    .redes{
+    height: 3.5em;
+    float: right;
+    padding: 0.3;
+    margin-top: -3em;
+    }
+    .correo{
+    width: 4em;
+    float: right;
+    padding: 0.3px 1.3em 0em 0em;
+    margin-top: -2.5em;
+    }
+
+/*ABOUT INFO*/
+
+.acerca{
+    
+    width: 100%;
+    height: 55em;
+}
+.seccion{
+    width: 90em;
+    height: 45em;
+    margin: auto;
+    margin-top: 6em;
+}
+.foto{
+    width: 40em;
+    float: left;
+    margin-left: 1em;
+   
+}
+.infor {
+    list-style: none;
+    margin-left: 50%;
+    line-height: 4em;
+    font-size: 2em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media only screen and (max-width: 1440px){
+    body{
+    font-size: 10px;
+    }
+
+    .foto{
+        width: 26em;
+        float: left;
+        margin-left: 1em;
+       
+    }
+    .infor {
+        list-style: none;
+        margin-left: 50%;
+        line-height: 4em;
+        font-size: 1.3em;
+        font-family: 'Quicksand', sans-serif;
+}
+}

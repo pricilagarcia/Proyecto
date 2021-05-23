@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: var(--color2);
+    
+}
+:root{
+    --color1: #fff;
+    --color2: black;
+    --color3: rgb(108, 108, 226);
+    --color4: #727880;
+    --color5: #5645b8;
+    --color6: rgb(29, 58, 66);
+    --color7: #3c5858;
+    }
+
+.body{
+    font-size: 10px;
+}  
+
+.banner{
+    background-image: url(../img/banner.jpg);
+    width: 100%;
+    height: 50em;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+       
+}
+.titu{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    color: var(--color2);
+    font-size: 6em;
+    margin-top: 4em;
+}
+ /*empieza portafolio*/
+    
+ .intro{
+    background-color: var(--color6);
+    width: 20em;
+    height: 50em;
+    align-content:flex-end;
+    float: right;
+    padding: 4em;
+}
+    
+.foto{
+    width: 20em;
+    padding-bottom: 2em;
+        
+}
+.name{
+    text-align: center;
+    font-size: 2em;
+    color: var(--color1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 2em;
+}
+    
+.expe{
+    font-size: 1.3em;
+    text-align: justify;
+    color: var(--color1);
+    padding-bottom: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.leer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 19em;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8em;
+    color: var(--color1);
+    background-color: var(--color2);
+    float: left;
+    margin-top: -1em;
+    
+    }
+.container{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    padding: 5em 16em 0em 10em;
+    box-sizing: border-box;
+    float: left;
+}
+.uno{
+    width: 60em;
+    height: 23.3em;
+    padding: 3em;
+    box-sizing: border-box;
+    float: left;
+    background-color: var(--color1);
+    
+}
+.trabajos{
+    width: 27em;
+    height: auto;
+    float: left;
+    margin-left: 1em;
+    padding-right: 2em;
+}
+
+.nombre{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.descripcion{
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1.7em;
+    color: var(--color2);
+}
+.boton{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 14em;
+    text-align: center;
+    margin: 4em 0em 0em 5.8em;
+    text-decoration: none;
+    padding: 0.8em;
+    color: c;
+    background-color: var(--color2);
+    float: left;
+    color: var(--color1);
+    
+}
+
+@media only screen and (max-width: 1440px){
+body{
+    font-size: 10px;
+}
+.leer{
+        margin-top: -2em;  
+}
+.boton{
+    margin: 2.5em 0em 0em 5.8em;
+}
+    }
